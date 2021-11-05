@@ -14,18 +14,17 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.jitsi/jain-sip-ri-ossonly -->
-        <dependency>
-            <groupId>org.jitsi</groupId>
-            <artifactId>jain-sip-ri-ossonly</artifactId>
-            <version>1.2.279-jitsi-oss1</version>
-        </dependency>
         <!-- https://mvnrepository.com/artifact/javax.sip/jain-sip-api -->
         <dependency>
             <groupId>javax.sip</groupId>
             <artifactId>jain-sip-api</artifactId>
             <!--suppress MavenPackageUpdate -->
             <version>1.2.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.sip</groupId>
+            <artifactId>jain-sip-ri</artifactId>
+            <version>1.2.169</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.ecf</groupId>
