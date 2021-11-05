@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>jain-sip-examples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.jitsi/jain-sip-ri-ossonly -->
+        <dependency>
+            <groupId>org.jitsi</groupId>
+            <artifactId>jain-sip-ri-ossonly</artifactId>
+            <version>1.2.279-jitsi-oss1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.sip/jain-sip-api -->
+        <dependency>
+            <groupId>javax.sip</groupId>
+            <artifactId>jain-sip-api</artifactId>
+            <!--suppress MavenPackageUpdate -->
+            <version>1.2.1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.ecf</groupId>
+            <artifactId>org.apache.log4j</artifactId>
+            <version>1.2.15.v201012070815</version>
+        </dependency>
+    </dependencies>
+
+</project>
